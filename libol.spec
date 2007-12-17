@@ -13,7 +13,6 @@ URL:		http://www.balabit.hu/downloads/libol/0.3/
 Source:     http://www.balabit.hu/downloads/libol/0.3/%{name}-%{version}.tar.bz2
 License:	GPL
 Group:		System/Libraries
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Nonblocking I/O and OO library. It is needed to build syslog-ng,
