@@ -51,9 +51,13 @@ rm -rf %{buildroot}
 %makeinstall
 rm -f %{buildroot}%{_bindir}/make_class
 
+%if %mdkversion < 200900
 %post -n %{libname} -p /sbin/ldconfig
+%endif
 
+%if %mdkversion < 200900
 %postun -n %{libname} -p /sbin/ldconfig
+%endif
 
 %clean
 rm -rf %{buildroot}
