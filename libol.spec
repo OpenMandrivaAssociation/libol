@@ -1,6 +1,6 @@
 %define	name	libol
 %define	version	0.3.18
-%define	release	%mkrel 4
+%define	release	%mkrel 5
 
 %define major	0
 %define libname	%mklibname ol %{major}
