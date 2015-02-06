@@ -4,7 +4,7 @@
 Summary:	Nonblocking I/O and OO library
 Name:		libol
 Version:	0.3.18
-Release:	6
+Release:	7
 License:	GPL
 Group:		System/Libraries
 URL:		http://www.balabit.hu/downloads/libol/0.3/
