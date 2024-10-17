@@ -7,7 +7,7 @@ Version:	0.3.18
 Release:	7
 License:	GPL
 Group:		System/Libraries
-URL:		http://www.balabit.hu/downloads/libol/0.3/
+URL:		https://www.balabit.hu/downloads/libol/0.3/
 Source:     http://www.balabit.hu/downloads/libol/0.3/%{name}-%{version}.tar.bz2
 
 %description
