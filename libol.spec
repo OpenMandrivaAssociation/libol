@@ -10,6 +10,11 @@ Group:		System/Libraries
 URL:		https://www.balabit.hu/downloads/libol/0.3/
 Source:     http://www.balabit.hu/downloads/libol/0.3/%{name}-%{version}.tar.bz2
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Nonblocking I/O and OO library. It is needed to build syslog-ng,
 the new generation syslog.
